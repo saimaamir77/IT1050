@@ -10,6 +10,16 @@ namespace LearningClass
     {
         static void Main(string[] args)
         {
+            Person p1;
+            p1 = new Person();
+            p1.firstName = "Donnie";
+            p1.lastName = "Santos";
+            string s = p1.GetFullName();
+            Console.WriteLine("this is what you got " + s);
+            Console.ReadLine();
+
         }
     }
+
+    
 }
