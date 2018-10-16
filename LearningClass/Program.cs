@@ -15,6 +15,7 @@ namespace LearningClass
             p1.firstName = "Donnie";
             p1.lastName = "Santos";
             string s = p1.GetFullName();
+            p1.
             Console.WriteLine("this is what you got " + s);
             Console.ReadLine();
 
